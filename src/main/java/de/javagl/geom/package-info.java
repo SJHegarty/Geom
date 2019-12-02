@@ -15,12 +15,12 @@
  * For the primitives, these classes contain utility methods that in
  * general allow modifications of the primitives that are implemented
  * aiming at high performance and low memory overhead. For example,
- * most of the methods have an <i>optional</i> parameter that may 
+ * most of the methods have an <i>optional</i> parameter that may
  * store the transformed result, and will return this result parameter,
- * or create a new object internally when the result parameter 
+ * or create a new object internally when the result parameter
  * was <code>null</code>.<br>
  * <br>
- * The remaining classes deal with tasks that frequently occur in 
+ * The remaining classes deal with tasks that frequently occur in
  * geometry-heavy applications. All these classes should be considered
  * as being <b>preliminary</b>, meaning that they might be moved to
  * different packages, or minor details of the interfaces may change,
